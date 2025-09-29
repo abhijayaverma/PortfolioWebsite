@@ -1,77 +1,52 @@
-Portfolio Website
+# Portfolio Website
 
 A modern, responsive personal portfolio website showcasing my skills, projects, and achievements.
 Built with a glassmorphism aesthetic, dark theme, and smooth animations for a sleek user experience.
 
-Key Features
+Key Features:
+- Glassmorphism Design – Elegant frosted-glass UI with depth and subtle highlights
+- Smooth Scroll Navigation – Seamless section-to-section scrolling
+- Responsive Animations – Framer Motion animations that adapt to all screen sizes
+- SEO Optimized – Metadata and structure for better search visibility
+- Performance Focused – Fast load times using Vite’s lightning-fast build
 
-Glassmorphism Design – Elegant frosted-glass UI with depth and subtle highlights
+Tech Stack:
+- React – Component-based UI
+- TypeScript – Type-safe, maintainable code
+- Tailwind CSS – Utility-first, responsive styling
+- Vite – Next-generation frontend tooling
+- Framer Motion – Declarative animations and transitions
 
-Smooth Scroll Navigation – Seamless section-to-section scrolling
+Getting Started:
 
-Responsive Animations – Framer Motion animations that adapt to all screen sizes
+1. Clone the repo
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
 
-SEO Optimized – Metadata and structure for better search visibility
+2. Install dependencies
+   npm install
 
-Performance Focused – Fast load times using Vite’s lightning-fast build
+3. Run the development server
+   npm run dev
+   Then visit http://localhost:5173 in your browser.
 
-Tech Stack
+4. Build for production
+   npm run build
 
-React – Component-based UI
-
-TypeScript – Type-safe, maintainable code
-
-Tailwind CSS – Utility-first, responsive styling
-
-Vite – Next-generation frontend tooling
-
-Framer Motion – Declarative animations and transitions
-
-Getting Started
-
-Clone the repo
-
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-
-Install dependencies
-
-npm install
-
-
-Run the development server
-
-npm run dev
-
-
-Visit http://localhost:5173
- in your browser.
-
-Build for production
-
-npm run build
-
-Project Structure
+Project Structure:
 src/
   components/    # Reusable UI components
   pages/         # Main page sections (Home, Projects, Contact, etc.)
   assets/        # Images, icons, and other static files
   styles/        # Global styles and Tailwind configuration
 
-Deployment
+Deployment:
+Deploy the production build to any static host such as:
+- Vercel
+- Netlify
+- GitHub Pages
 
-You can deploy the production build to:
+(Replace this section with your live site URL once deployed.)
 
-Vercel
-
-Netlify
-
-GitHub Pages
-
-(Update with your live site URL once deployed.)
-
-License
-
-This project is licensed under the MIT License
-.
+License:
+This project is licensed under the MIT License.
